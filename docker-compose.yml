@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: mqtt_broker
+    ports:
+      - "1883:1883"   # MQTT
+      - "9001:9001"   # websockets (optional, not required for this project)
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    restart: unless-stopped
+
+  api:
+    build: .
+    container_name: predictive_maintenance_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./xgb_final_model.pkl:/app/xgb_final_model.pkl
+      - ./xgb_final_threshold.pkl:/app/xgb_final_threshold.pkl
+      - ./feature_names.pkl:/app/feature_names.pkl
+    restart: unless-stopped

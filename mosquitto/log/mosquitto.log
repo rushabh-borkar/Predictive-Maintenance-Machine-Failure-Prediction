@@ -1,0 +1,33 @@
+1789930301: mosquitto version 2.1.2 starting
+1789930301: Config loaded from /mosquitto/config/mosquitto.conf.
+1789930301: Bridge support available.
+1789930301: Persistence support available.
+1789930301: TLS support available.
+1789930301: TLS-PSK support available.
+1789930301: Websockets support available.
+1789930301: Opening ipv4 listen socket on port 1883.
+1789930301: Opening ipv6 listen socket on port 1883.
+1789930301: mosquitto version 2.1.2 running
+1789930660: New connection from 172.19.0.1:38196 on port 1883.
+1789930660: New client connected from 172.19.0.1:38196 as auto-C00CC8A1-18B7-ACEF-AA8E-AA4E0CDD5369 (p4, c1, k60).
+1789930829: New connection from 172.19.0.1:57662 on port 1883.
+1789930829: New client connected from 172.19.0.1:57662 as auto-68BFC4B1-AF8F-0423-9112-1956685E35EA (p4, c1, k60).
+1789930869: Client auto-68BFC4B1-AF8F-0423-9112-1956685E35EA [172.19.0.1:57662] disconnected.
+1789931207: New connection from 172.19.0.1:56672 on port 1883.
+1789931207: New client connected from 172.19.0.1:56672 as auto-3F53C234-E329-4FF1-DC23-BDEC04055E7A (p4, c1, k60).
+1789931246: New connection from 172.19.0.1:46050 on port 1883.
+1789931246: New client connected from 172.19.0.1:46050 as auto-75EEF4D6-7C48-B887-3593-57A0D45A6A92 (p4, c1, k60).
+1789931330: Client auto-3F53C234-E329-4FF1-DC23-BDEC04055E7A [172.19.0.1:56672] disconnected: connection closed by client.
+1789931331: New connection from 172.19.0.1:59450 on port 1883.
+1789931331: New client connected from 172.19.0.1:59450 as auto-A4A9BA27-2F60-EE5D-37A9-7AAF8B72ECEF (p4, c1, k60).
+1789931388: Client auto-C00CC8A1-18B7-ACEF-AA8E-AA4E0CDD5369 [172.19.0.1:38196] disconnected: connection closed by client.
+1789931389: New connection from 172.19.0.1:51496 on port 1883.
+1789931389: New client connected from 172.19.0.1:51496 as auto-F1477A4F-9524-3016-6365-2DFC82955DE6 (p4, c1, k60).
+1789931398: Client auto-75EEF4D6-7C48-B887-3593-57A0D45A6A92 [172.19.0.1:46050] disconnected.
+1789931453: Client auto-A4A9BA27-2F60-EE5D-37A9-7AAF8B72ECEF [172.19.0.1:59450] disconnected: connection closed by client.
+1789931454: New connection from 172.19.0.1:35442 on port 1883.
+1789931454: New client connected from 172.19.0.1:35442 as auto-33BD73C3-D66F-68A6-307D-7425046F3CE9 (p4, c1, k60).
+1789931712: Client auto-33BD73C3-D66F-68A6-307D-7425046F3CE9 [172.19.0.1:35442] disconnected: connection closed by client.
+1789931714: Client auto-F1477A4F-9524-3016-6365-2DFC82955DE6 [172.19.0.1:51496] disconnected: connection closed by client.
+1789931728: mosquitto version 2.1.2 terminating
+1789931728: Saving in-memory database to /mosquitto/data//mosquitto.db.
